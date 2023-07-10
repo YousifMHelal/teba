@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+
+.home {
+  background-image: url(assets/homePage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: 0.5;
+  z-index: -2;
+}
+
+/* -----Nav bar-----  */
+.nav-bar {
+  @apply backdrop-saturate-[180%] backdrop-blur-[5px] transition-opacity duration-[0.3s] ease-[ease-in-out] z-[100];
+}
+
+/* -----menu----- */
+#menu {
+  @apply max-sm:flex max-sm:flex-col hidden
+}
+
+#menu span {
+  width: 32px;
+  height: 4px;
+  background: black;
+  transform-origin: 0 0;
+  border: none;
+  outline: none;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+#menu.is-active span:nth-child(1) {
+  transform: translate(0px, -2px) rotate(45deg);
+  -webkit-transform: translate(0px, -2px) rotate(45deg);
+  -moz-transform: translate(0px, -2px) rotate(45deg);
+  -ms-transform: translate(0px, -2px) rotate(45deg);
+  -o-transform: translate(0px, -2px) rotate(45deg);
+}
+
+#menu.is-active span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(15px);
+  -webkit-transform: translateX(15px);
+  -moz-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  -o-transform: translateX(15px);
+}
+
+#menu.is-active span:nth-child(3) {
+  transform: translate(-3px, 3px) rotate(-45deg);
+  -webkit-transform: translate(-3px, 3px) rotate(-45deg);
+  -moz-transform: translate(-3px, 3px) rotate(-45deg);
+  -ms-transform: translate(-3px, 3px) rotate(-45deg);
+  -o-transform: translate(-3px, 3px) rotate(-45deg);
+}
+
+.new {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  @apply flex flex-col text-center items-center justify-center text-6xl absolute top-[75px] h-[230px] w-[550px] left-[30px]
+}
