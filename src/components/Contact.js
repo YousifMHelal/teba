@@ -7,7 +7,7 @@ import { MdLocationPin } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="min-h-[85vh] bg-gradient-to-b to-white from-gray2">
+    <div className="min-h-[85vh] bg-gradient-to-b to-white from-gray">
       <div className="container mx-auto max-w-[1172px] px-4 py-8" id="contact">
         {/* -----Heading----- */}
         <h1 className="text-center font-bold text-4xl text-heading">

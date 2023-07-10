@@ -23,7 +23,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="min-h-[100vh] bg-gradient-to-b from-white to-gray2">
+    <div className="min-h-[100vh] bg-gradient-to-b from-white to-gray">
       <div className="container mx-auto max-w-[1172px] px-4 py-8" id="project">
         {/* -----Heading----- */}
         <h1 className="text-center font-bold text-4xl text-heading">
