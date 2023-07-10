@@ -7,7 +7,7 @@ import { MdLocationPin } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="min-h-[85vh] bg-gradient-to-b to-white from-gray">
+    <div className="py-20 bg-gradient-to-b to-white from-gray">
       <div className="container mx-auto max-w-[1172px] px-4 py-8" id="contact">
         {/* -----Heading----- */}
         <h1 className="text-center font-bold text-4xl text-heading">
@@ -16,11 +16,11 @@ const Contact = () => {
         {/* -----contant----- */}
         <div className="container mx-auto h-[100%] max-w-[1172px] px-4 flex justify-between mt-32 max-md:mt-10 items-center max-md:pt-5 max-md:flex-col-reverse max-md:items-center">
           <div className="flex flex-col">
-            <div className="flex items-center text-2xl text-heading py-3">
+            <div className="flex items-center text-2xl text-heading py-3 max-sm:flex-wrap">
               <BiPhoneCall className="text-3xl" />
               <p className="font-bold px-4">0201110292946+</p>
-              <span className="font-bold">-</span>
-              <p className="font-bold px-4">0201110092920+</p>
+              <span className="font-bold max-sm:hidden">-</span>
+              <p className="font-bold px-4 max-sm:mr-7">0201110092920+</p>
             </div>
             <div className="flex items-center text-2xl text-heading py-3">
               <BiLogoGmail className="text-3xl" />

@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <div
-        className="container mx-auto max-w-[1172px] px-4 py-8 mt-4"
+        className="container mx-auto max-w-[1172px] px-4 py-20 mt-4"
         id="about">
         {/* -----Page header----- */}
         <div>
