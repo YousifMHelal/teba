@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/teba/static/css/main.53d7c6ae.css",
+    "main.js": "/teba/static/js/main.43c1a1ea.js",
+    "static/media/Simg.png": "/teba/static/media/Simg.c729c382b751a22d2370.png",
+    "static/media/homePage.png": "/teba/static/media/homePage.bbfd480e5773ea65c3a9.png",
+    "static/media/Teba.png": "/teba/static/media/Teba.8fa420fbfa08245e16b6.png",
+    "static/media/Chimg.png": "/teba/static/media/Chimg.eaef00b648bc3f4ba8aa.png",
+    "static/media/logo.png": "/teba/static/media/logo.85a7c21c3fe5660cfb35.png",
+    "static/media/Shimg.png": "/teba/static/media/Shimg.2996b653e0b2a18643b8.png",
+    "static/media/Mimg.png": "/teba/static/media/Mimg.566c9390a8bd2e15343b.png",
+    "index.html": "/teba/index.html",
+    "main.53d7c6ae.css.map": "/teba/static/css/main.53d7c6ae.css.map",
+    "main.43c1a1ea.js.map": "/teba/static/js/main.43c1a1ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53d7c6ae.css",
+    "static/js/main.43c1a1ea.js"
+  ]
+}
