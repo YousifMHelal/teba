@@ -43,14 +43,14 @@ Make sure you have the following installed on your machine:
 1.  Clone the repository:
 
 ```bash
-git clone https://github.com/YousifMHelal/Web-portfolio.git
+git clone https://github.com/YousifMHelal/teba.git
 ```
 
 2.  Navigate to the project directory:
 
 
 ```bash
-cd Web-portfolio
+cd teba
 ```
 
 3.  Install the dependencies:
